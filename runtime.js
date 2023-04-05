@@ -51,8 +51,8 @@ perf.start();                     // Starts timer
 // doublerAppend(tinyArray)
 // doublerAppend(smallArray)
 // doublerAppend(mediumArray)
-doublerAppend(largeArray)
-// doublerAppend(extraLargeArray);
+// doublerAppend(largeArray)
+doublerAppend(extraLargeArray);
 let resultsAppend = perf.stop();  // Stops timer and save time results
 
 
@@ -61,8 +61,8 @@ perf.start();
 // doublerInsert(tinyArray)
 // doublerInsert(smallArray)
 // doublerInsert(mediumArray)
-doublerInsert(largeArray)
-// doublerInsert(extraLargeArray);
+// doublerInsert(largeArray)
+doublerInsert(extraLargeArray);
 let resultsInsert = perf.stop();
 
 // console.log('Results for tinyArray')
@@ -77,13 +77,13 @@ let resultsInsert = perf.stop();
 // console.log('insert', resultsInsert.preciseWords)
 // console.log('append', resultsAppend.preciseWords)
 
-console.log('Results for largeArray')
-console.log('insert', resultsInsert.preciseWords)
-console.log('append', resultsAppend.preciseWords)
+// console.log('Results for largeArray')
+// console.log('insert', resultsInsert.preciseWords)
+// console.log('append', resultsAppend.preciseWords)
 
-// console.log('Results for the extraLargeArray');
-// console.log("insert", resultsInsert.preciseWords);
-// console.log("append", resultsAppend.preciseWords);
+console.log('Results for the extraLargeArray');
+console.log("insert", resultsInsert.preciseWords);
+console.log("append", resultsAppend.preciseWords);
 
 
 const addToZero = (arr) => {

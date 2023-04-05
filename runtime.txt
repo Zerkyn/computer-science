@@ -1,0 +1,25 @@
+when the extraLargeArray is passed into the functions, it takes about 3 milliseconds to finish the append function and 1 second to finish the insert function.
+
+tinyArray
+insert - 35 millionth seconds
+append - 96 millionth seconds
+
+smallArray
+insert - 49 millionth seconds
+append - 115 millionth seconds
+
+mediumArray
+insert - 192 millionth seconds
+append - 154 millionth seconds
+
+largeArray
+insert - 10 milliseconds
+append - 644 millionth seconds
+
+extraLargeArray
+insert - 1 second
+append - 2 milliseconds
+
+
+when the 2 functions run the insert function using unshift starts out faster than the append function.
+but once the number getting passed into the function is 1000 the append function using push becomes faster.
